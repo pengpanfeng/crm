@@ -157,6 +157,11 @@
 	           <groupId>com.google.zxing</groupId>
 	           <artifactId>javase</artifactId>
 	 	</dependency>
+	 	<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-web-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>amms-web</finalName>
