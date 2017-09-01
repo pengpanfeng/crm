@@ -162,6 +162,11 @@
 			<artifactId>javaee-web-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+		  <groupId>com.wp.ppf.crm</groupId>
+		  <artifactId>crm-user-app</artifactId>
+		  <version>${crm.version}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>amms-web</finalName>
