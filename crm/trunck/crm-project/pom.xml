@@ -13,10 +13,9 @@
 
 
 <properties>
-	
-
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>4.12</junit.version>
+		<javaee.version>7.0</javaee.version>
 		<druid.version>1.0.9</druid.version>
 		<mybatis.version>3.2.2</mybatis.version>
 		<mybatis.spring.version>1.2.0</mybatis.spring.version>
@@ -95,6 +94,12 @@
 				<artifactId>junit</artifactId>
 				<version>${junit.version}</version>
 				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-web-api</artifactId>
+				<version>${javaee.version}</version>
+				<scope>provided</scope>
 			</dependency>
 			<!-- 数据库相关包 -->
 			<dependency>
