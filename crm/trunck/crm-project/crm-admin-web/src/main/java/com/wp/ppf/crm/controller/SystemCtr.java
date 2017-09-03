@@ -4,6 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.crm.user.dto.UserDto;
+
 @Controller
 public class SystemCtr {
 	@RequestMapping(value="/",produces={"application/json","text/html"})
